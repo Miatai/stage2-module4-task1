@@ -76,27 +76,33 @@ public class Employee {
         }
 
         public EmployeeBuilder setName(String name) {
-            return this.setName(name);
+            employee.setName(name);
+            return this;
         }
 
         public EmployeeBuilder setLastName(String lastName) {
-            return this.setLastName(lastName);
+            employee.setLastName(lastName);
+            return this;
         }
 
         public EmployeeBuilder setPosition(String position) {
-            return this.setPosition(position);
+            employee.setPosition(position);
+            return this;
         }
 
         public EmployeeBuilder setPhone(String phone) {
-            return this.setPhone(phone);
+            employee.setPhone(phone);
+            return this;
         }
 
         public EmployeeBuilder setEmail(String email) {
-            return this.setEmail(email);
+            employee.setEmail(email);
+            return this;
         }
 
         public EmployeeBuilder setCarNumber(String carNumber) {
-            return this.setCarNumber(carNumber);
+            employee.setCarNumber(carNumber);
+            return this;
         }
 
         public Employee build(){
